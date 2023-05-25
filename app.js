@@ -1,7 +1,7 @@
 import React from "react";
 import  ReactDOM  from "react-dom/client";
 import Contact from "./src/components/Contact";
-import Header from "./src/components/header";
+import Header from "./src/components/Header";
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 import Maps from "./src/components/Maps_and_Charts";
 import { Provider } from "react-redux";
