@@ -1,0 +1,37 @@
+{
+  "name": "contact-form-assignment",
+  "version": "1.0.0",
+  "description": "contact form",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "/package.json"
+      ],
+      "url": "https://json.schemastore.org/package",
+      "schema": true
+    }
+  ],
+  "author": "muskan hora",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "chart.js": "^4.3.0",
+    "parcel": "^2.8.3",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.11.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.2"
+  }
+}
